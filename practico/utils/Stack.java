@@ -1,5 +1,5 @@
 
-class Stack<AnyType> {
+public class Stack<AnyType> {
 
   /**
    * Indice de array en donde tenemos el último elemento.
