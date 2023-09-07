@@ -49,7 +49,7 @@ public class Stack<AnyType> {
    * 
    * @return
    */
-  public Integer top() {
+  public AnyType top() {
     return this.array[this.index - 1];
   }
 
