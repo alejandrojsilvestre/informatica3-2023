@@ -8,7 +8,7 @@ public class StackList<AnyType> {
    * @param element
    */
   public void push(AnyType element) {
-    Nodo<AnyType> newNodo = new Nodo<StackList.AnyType>(element);
+    Nodo<AnyType> newNodo = new Nodo<AnyType>(element);
     newNodo.next = root;
     root = newNodo;
   }
